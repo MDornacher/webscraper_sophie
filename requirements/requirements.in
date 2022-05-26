@@ -1,4 +1,4 @@
-scrapy==2.4.0
-beautifulsoup4==4.9.3
-environs==9.0.0
-mysql-connector-python==8.0.22
+scrapy==2.6.1
+beautifulsoup4==4.11.1
+environs==9.5.0
+mysql-connector-python==8.0.29

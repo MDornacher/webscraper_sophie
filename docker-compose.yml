@@ -28,4 +28,4 @@ services:
       - .:/src
 
 volumes:
-  db_data: {} # make db data persistent
+  db_data: {} # make db data persistent at /var/lib/docker/volumes
