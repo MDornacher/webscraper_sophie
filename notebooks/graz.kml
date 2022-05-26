@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2"> <NetworkLink>
+<name>graz</name>
+<open>1</open>
+<LookAt>
+<longitude>15.44507712668554</longitude>
+<latitude>47.073232775955056</latitude>
+<altitude>0.0</altitude>
+<range>16241.960903314175</range>
+</LookAt>
+<Link>
+<href>https://geodaten.graz.at/arcgis/services/OGD/VERWALTUNGSEINHEITEN_WMS/MapServer/KmlServer?Composite=false&amp;VectorsToRasters=true&amp;LayerIDs=2</href>
+<viewRefreshMode>onStop</viewRefreshMode>
+<viewRefreshTime>2</viewRefreshTime>
+<viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth];CAMERA=[lookatLon],[lookatLat],[lookatRange],[lookatTilt],[lookatHeading];VIEW=[horizFov],[vertFov],[horizPixels],[vertPixels],[terrainEnabled]</viewFormat>
+</Link>
+</NetworkLink>
+</kml>
