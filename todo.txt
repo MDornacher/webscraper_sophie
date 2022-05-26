@@ -1,0 +1,6 @@
+# TODO: set up debug environment
+# TODO: change commission to deposit
+# TODO: "verfügbar (ab)", "beschreibung", "haustiere"
+# TODO: do not append if price fails validation check
+# TODO: generate visualizations
+# TODO: use geopandas with graz shapefiles
