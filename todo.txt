@@ -4,3 +4,4 @@
 # TODO: do not append if price fails validation check
 # TODO: generate visualizations
 # TODO: use geopandas with graz shapefiles
+# TODO: move entirely onto server

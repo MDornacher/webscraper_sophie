@@ -14,7 +14,8 @@ USER = env("MYSQL_USER")
 PASSWORD = env("MYSQL_PASSWORD")
 DATABASE = env("MYSQL_DATABASE")
 TABLENAME = env("MYSQL_TABLENAME")
-HOST = 'db'     # name of the docker container
+HOST = "192.168.1.52"  # server hosted DB
+PORT = "3307"
 
 # Settings for connection error handling
 NUM_ATTEMPTS = 30
@@ -33,6 +34,7 @@ class DatabaseManager():
         for attempt_no in range(1, NUM_ATTEMPTS+1):
             try:
                 self.connection = mysql.connector.connect(host=HOST,
+                                                          port=PORT,
                                                           database=DATABASE,
                                                           user=USER,
                                                           password=PASSWORD)
